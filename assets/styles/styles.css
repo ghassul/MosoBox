@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #ebcb7e;
     font-size: 18px;
+    font-family: Calibri, sans-serif;
 }
 header {
     background: #5d5135 url(../images/Header_Background_Image.png) no-repeat center/cover  ;
@@ -85,6 +86,9 @@ h2 {
 
 .partners img {
     width: 100%;
+    box-sizing: border-box;
+    box-shadow: black 0 0px 5px 1px;
+    border-radius: 10px;
 }
 
 .artist-info p {
@@ -94,6 +98,11 @@ h2 {
 .artist-info a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.artist-info a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -114,4 +123,8 @@ footer p {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+.social {
+    margin-top: 15px;
 }
