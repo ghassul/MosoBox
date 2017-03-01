@@ -136,6 +136,7 @@ header {
 .partners li {
     display: inline-block;
     width: 47%;
+    margin-bottom: 30px;
 }
 
 .partners img {
