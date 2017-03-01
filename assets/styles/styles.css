@@ -234,6 +234,10 @@ footer a {
         margin-top: 0;
     }
 
+    .page-jump-links li {
+        padding: 0 3px;
+    }
+
     .hero {
         background-image: url('../images/header_background_image_mobile.jpg');
     }
