@@ -30,12 +30,12 @@
 
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="D7XGP2E4M2UKG">
+            <input type="hidden" name="hosted_button_id" value="5JZL9ZBWSCWWQ">
             <table>
                 <tr><td><input type="hidden" name="on0" value="Box Type">Box Type</td></tr><tr><td><select name="os0">
-                            <option value="Standard">Standard $50.00 USD</option>
-                            <option value="Complete">Complete $60.00 USD</option>
-                            <option value="Shirt Only">Shirt Only $30.00 USD</option>
+                            <option value="Standard">Standard $60.00 USD</option>
+                            <option value="Complete">Complete $70.00 USD</option>
+                            <option value="Shirt Only">Shirt Only $35.00 USD</option>
                         </select> </td></tr>
                 <tr><td><input type="hidden" name="on1" value="Shirt Size (Unisex)">Shirt Size (Unisex)</td></tr><tr><td><select name="os1">
                             <option value="M">M </option>
@@ -57,19 +57,6 @@
             <p>Complete - $70 USD</p>
             <p>Shirt Only - $35 USD</p>
             <p>Shipping + Handling included</p>
-        </div>
-
-        <div class="info-block bold-text">
-            <p>Pre-Order Price</p>
-            <p>Standard - $50 USD</p>
-            <p>Complete - $60 USD</p>
-            <p>Shirt Only - $30 USD</p>
-            <p>Shipping + Handling included</p>
-        </div>
-
-        <div class="info-block">
-            <p>Pre-order end date</p>
-            <p>31-March-2017</p>
         </div>
 
         <div class="info-block">
