@@ -1,30 +1,10 @@
+<!DOCTYPE>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MosoBox</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.css" type="text/css"
-          rel="stylesheet"/>
-    <link rel="stylesheet" href="assets/styles/styles.css">
-</head>
+<?php $pageType = "home"; ?>
+<?php include('assets/includes/head.php'); ?>
 <body>
-
 <header>
-    <nav class="container top-nav">
-        <h1>MosoBox</h1>
-
-        <ul class="page-jump-links">
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#partners">Partners</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </nav>
-
+    <?php include('assets/includes/navbar.php') ?>
     <section class="hero">
         <div class="hero-overlay-container">
             <div class="hero-container">
@@ -89,28 +69,44 @@
 
     <ul>
         <li>
-            <a href="https://twitter.com/_yui22" target="_blank"><img src="assets/images/partners/Yui_Banner.png" alt=""></a>
+            <a href="https://twitter.com/_yui22" target="_blank">
+                <img src="assets/images/partners/Yui_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="https://www.facebook.com/discobrandow/" target="_blank"><img src="assets/images/partners/Disco_Brando_Banner.png" alt=""></a>
+            <a href="https://www.facebook.com/discobrandow/" target="_blank">
+                <img src="assets/images/partners/Disco_Brando_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="https://twitter.com/Phibonnachee" target="_blank"><img src="assets/images/partners/Phib_Banner.png" alt=""></a>
+            <a href="https://twitter.com/Phibonnachee" target="_blank">
+                <img src="assets/images/partners/Phib_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="https://www.facebook.com/rexlent"><img src="assets/images/partners/Rexlent_Banner.png" alt=""></a>
+            <a href="https://www.facebook.com/rexlent"
+            ><img src="assets/images/partners/Rexlent_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="https://twitter.com/edich_" target="_blank"><img src="assets/images/partners/Edich_Banner.png" alt=""></a>
+            <a href="https://twitter.com/edich_" target="_blank">
+                <img src="assets/images/partners/Edich_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="https://twitter.com/ARneipia" target="_blank"><img src="assets/images/partners/ARneipia_Banner.png" alt=""></a>
+            <a href="https://twitter.com/ARneipia" target="_blank">
+                <img src="assets/images/partners/ARneipia_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="http://berrycakeroll.deviantart.com/" target="_blank"><img src="assets/images/partners/Berry_Banner.png" alt=""></a>
+            <a href="http://berrycakeroll.deviantart.com/" target="_blank">
+                <img src="assets/images/partners/Berry_Banner.png" alt="">
+            </a>
         </li>
         <li>
-            <a href="http://mandyyyuhui.deviantart.com/" target="_blank"><img src="assets/images/partners/MrhH_Banner.png" alt=""></a>
+            <a href="http://mandyyyuhui.deviantart.com/" target="_blank">
+                <img src="assets/images/partners/MrhH_Banner.png" alt="">
+            </a>
         </li>
     </ul>
 </section>
@@ -146,30 +142,4 @@
     </ul>
 </section>
 
-<footer>
-    <div class="container">
-        <div class="about" id="about">
-            <h2>About</h2>
-            <p>MosoBox is a merchandise dealer and vendor based in Vancouver BC, Canada. Started as an artist alley
-                table in 2014 we then expanded operations to work with more artists and creators to have their works
-                turn to merchandise to better reach fans and markets.</p>
-        </div>
-
-        <div class="social">
-            <p>Social</p>
-            <a href="https://twitter.com/mosobox" target="_blank">Twitter</a>
-            | <a href="https://mosobox.wordpress.com/" target="_blank">Blog</a>
-            | <a href="https://www.facebook.com/mosobako" target="_blank">Facebook</a>
-            <p>E-mail</p>
-            <a href="mailto:mosobox@gmail.com">MosoBox@gmail.com</a>
-        </div>
-
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-latest.js"></script>
-<script src="assets/plugins/featherlight-1.7.1/release/featherlight.min.js" type="text/javascript"
-        charset="utf-8"></script>
-
-</body>
-</html>
+<?php include('assets/includes/footer.php'); ?>

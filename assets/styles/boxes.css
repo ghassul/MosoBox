@@ -1,0 +1,115 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.main-content {
+    margin-top: 40px;
+}
+
+.main-content h1 {
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+}
+
+.image-section {
+    display: inline-block;
+    width: 72.5%;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.image-thumbnails {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.image-thumbnails .thumbnail {
+    width: 19%;
+}
+
+.thumbnail.active img {
+    border: 3px solid #424874;
+    margin-top: -3px;
+    margin-left: -3px;
+}
+
+.order-section {
+    display: inline-block;
+    width: 24%;
+}
+
+.order-section table,
+.order-section input,
+.order-section select {
+    width: 100%;
+}
+
+.paypal-button {
+    max-width: 276px;
+}
+
+.order-section input {
+    margin-top: 10px;
+}
+
+.order-section .info-block {
+    text-align: right;
+}
+
+.order-section .info-block p:first-child {
+    border-bottom: 1px solid;
+    margin-top: 20px;;
+}
+
+.order-section .info-block p {
+    margin: 0;
+}
+
+.product-info {
+    display: flex;
+}
+
+.product-specs, .details {
+    flex: 1;
+}
+
+.product-info h3 {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+}
+
+.product-info .info-block {
+    margin-bottom: 20px;
+}
+
+.product-specs p, .artist-image p {
+    margin: 0;
+}
+
+.artist-image img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .image-section,
+    .order-section,
+    .product-info {
+        width: 100%;
+    }
+
+    .order-section form {
+        text-align: center;
+    }
+
+    .product-info {
+        display: block;
+    }
+
+}

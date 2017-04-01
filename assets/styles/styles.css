@@ -16,6 +16,11 @@ h1 {
     font-size: 3.5rem;
 }
 
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 h2 {
     font-size: 3rem;
 }
@@ -34,25 +39,68 @@ header {
 .page-jump-links {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .page-jump-links li {
     display: inline-block;
-    padding: 0 10px;
 }
 
-.page-jump-links a {
+.page-jump-links a, .sub-nav-parent {
     color: white;
     text-decoration: none;
     font-size: 1.8rem;
+    padding: 12px 10px;
+    display: inline-block;
 }
 
 .page-jump-links a:hover {
     text-decoration: underline;
 }
 
+.dropdown-nav {
+    position: relative;
+}
+
+.sub-nav-parent {
+    font-size: 1.8rem;
+    padding: 12px 10px;
+}
+
+.sub-nav-parent::after {
+    content: "▾";
+}
+
+.sub-nav {
+    background-color: #362b2e;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    border: 1px solid white;
+    border-bottom: none;
+    box-shadow: 0 0 2px 1px black;
+    margin-top: 0;
+    display: none;
+    z-index: 50;
+}
+
+.dropdown-nav:hover .sub-nav,
+.sub-nav:hover {
+    display: block;
+}
+
+.sub-nav li {
+    min-width: 200px;
+    border-bottom: 1px solid white;
+}
+
+.sub-nav a {
+    font-size: 1.5rem;
+}
+
 .hero {
-    background: #362b2e url('../images/header_background_image.jpg') no-repeat center/cover  ;
+    background: #362b2e url('../images/header_background_image.jpg') no-repeat center/cover;
     position: relative;
     height: 700px;
     border-bottom: 35px solid #362b2e;
